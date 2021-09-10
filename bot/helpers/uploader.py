@@ -59,6 +59,8 @@ class Uploader:
                 categoryId = Config.VIDEO_CATEGORY
             else:
                 categoryId = random.choice(list(self.video_category))
+                categoryId = list(self.video_category)[12)
+
 
             categoryName = self.video_category[categoryId]
             title = self.title if self.title else os.path.basename(self.file)
